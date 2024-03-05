@@ -1,0 +1,214 @@
+
+body {
+    margin: 0;
+
+}
+
+header {
+
+    .marquee {
+
+        marquee {
+
+            font-size: 30px;
+            color: black;
+            background-color: rgb(221 251 251);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            .hand {
+                font-size: 25px;
+            }
+
+        }
+    }
+
+    .logo {
+
+        text-align: center;
+
+        img {
+
+            width: 280px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+    }
+
+
+
+    .line {
+
+        margin-top: 23px;
+        width: 100%;
+        height: 1px;
+        background-color: #ebeaea;
+    }
+
+
+    .line-two {
+
+        margin-top: 2px;
+        width: 100%;
+        height: 1px;
+        background-color: #ebeaea;
+    }
+
+
+    .list {
+
+        display: flex;
+        margin-top: 15px;
+        gap: 52px;
+    }
+
+    li {
+        list-style: none;
+
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    a:hover {
+
+        color: rgb(150, 144, 144);
+    }
+
+
+}
+
+
+main{
+
+    .photo-title{
+
+        margin-top: 30px;
+    }
+
+    h1{
+
+        font-size: 26px;
+    }
+
+    .photo{
+
+        img{
+
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+    }
+
+
+    .des-one{
+
+        p{
+            font-size: 18px;
+        }
+    }
+
+    .des-two{
+
+        p{
+            font-size: 18px;
+        }
+    }
+
+    .des-three{
+
+        p{
+            font-size: 18px;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+
+footer{
+
+    .footer-top{
+
+        width: 100%;
+        height: 300px;
+        background-color: rgb(221 251 251);
+    }
+
+
+    .footer-nav{
+
+        position: relative;
+        right: -55px;
+        top: 54px;
+    }
+
+
+    .logo-dark{
+
+        color: black;
+        font-size: 100px;
+
+        img{
+
+            width: 280px;
+            height: auto;
+        }
+
+    }
+
+
+    .text{
+
+        text-decoration: none;
+        color: black;
+        
+    }
+
+
+    .list{
+
+        list-style: none;
+        margin-top: 5px;
+        
+    }
+
+
+    .bottom-list{
+
+        margin-top: 12px;
+        list-style: none;
+    }
+
+
+    .right-nav{
+
+       margin-top: 50px;
+       position: relative;
+       left: 100px;
+       gap: 100px;
+    }
+
+
+    .line-three{
+
+        width: 100%;
+        height: 1px;
+        background-color: gray;
+    }
+
+
+    .footer-text{
+
+        p{
+            color: black;
+            font-size: 21px;
+            margin-top: 24px;
+        }
+    }
+}
